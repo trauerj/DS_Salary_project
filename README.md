@@ -1,4 +1,4 @@
-# Data Sccientist salary estimator: Project Overview
+# Data Scientist salary estimator: Project Overview
 * Created a [tool](https://github.com/trauerj/DS_Salary_project/blob/main/ds_jobs_project_model_building_v1.ipynb) that estimates data science salaries (MAE ~11K-12K$) to help data scientists to negotiate their salary at an interview.
 * Engineered features from job description.
 * Optimized Linear, Random Forest and Gradient Boosting Regressor using GridsearchCV to reach the best model.
