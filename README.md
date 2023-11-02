@@ -78,3 +78,12 @@ I got the following MAE values when the models used the scaled features:
 * Linear Regression: MAE = 19644
 * Random Forest: MAE = 12028
 * Gradient Boosting: MAE = 11466
+
+### Comparison
+
+|      Model      | MAE with all features | MAE with most corralated features | MAE with scaled features|
+|----------------:|:-----:|:----:|:----:|
+|Linear Regression| 19252 | 19644 | 19644 |
+|Random Forest    | 12006 | 13636 | 12028 |
+|Gradient Boosting| 11466 | 12289 | 11466 |
+
