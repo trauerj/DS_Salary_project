@@ -1,5 +1,5 @@
 # Data Sccientist salary estimator: Project Overview
-* Created a tool that estimates data science salaries (MAE ~11K-12K$) to help data scientists to negotiate their salary at an interview.
+* Created a [tool](https://github.com/trauerj/DS_Salary_project/blob/main/ds_jobs_project_model_building_v1.ipynb) that estimates data science salaries (MAE ~11K-12K$) to help data scientists to negotiate their salary at an interview.
 * Engineered features from job description.
 * Optimized Linear, Random Forest and Gradient Boosting Regressor using GridsearchCV to reach the best model.
 
@@ -25,7 +25,7 @@ Columns of the dataset:
 *	Revenue
 *	Competitors 
 
-## Data cleaning
+## [Data cleaning](https://github.com/trauerj/DS_Salary_project/blob/main/ds_jobs_project_data_cleaning_and_feature_engineering.ipynb)
 I need to clean up the dataset so it was usable for our models. I made the following changes:
 * Removed rows with Nan values
 * Converted strings to numerics by removing words or letters
@@ -37,14 +37,14 @@ I need to clean up the dataset so it was usable for our models. I made the follo
 * Created new columns for average salary and avarege company size
 * Engeneered features like Seniority, Job description length, Simplified job title
 
-## Data Analysis
+## [Data Analysis](https://github.com/trauerj/DS_Salary_project/blob/main/jobs_analysis_v1.ipynb)
 I looked at the distribution of the ratings, average salaries, Description length and year of foundation.
 
 I analized the dependence of salary on company size, the company has a competitors or not, in the same state or not, State, Seniority and Job title.
 
 Finaly I looked for if a job require one or more of the most required techical skills.
 
-## Model Building
+## [Model Building](https://github.com/trauerj/DS_Salary_project/blob/main/ds_jobs_project_model_building_v1.ipynb)
 First, I transformed the categorical variables to dummy variables.
 
 Second, I looked for the 21 most corralated features and made the models using just these features.
