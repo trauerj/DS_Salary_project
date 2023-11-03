@@ -26,7 +26,7 @@ Columns of the dataset:
 *	Competitors 
 
 ## [Data cleaning](https://github.com/trauerj/DS_Salary_project/blob/main/ds_jobs_project_data_cleaning_and_feature_engineering.ipynb)
-I need to clean up the dataset so it was usable for our models. I made the following changes:
+I needed to clean up the dataset so it was usable for our models. I made the following changes:
 * Removed rows with Nan values
 * Converted strings to numerics by removing words or letters
 * Extract new columns for most required technical skills (Excel, Python, R, SQL, AWS) from job description
@@ -38,16 +38,16 @@ I need to clean up the dataset so it was usable for our models. I made the follo
 * Engeneered features like Seniority, Job description length, Simplified job title
 
 ## [Data Analysis](https://github.com/trauerj/DS_Salary_project/blob/main/jobs_analysis_v1.ipynb)
-I looked at the distribution of the ratings, average salaries, Description length and year of foundation.
+I checked the distribution of the ratings, average salaries, Description length and year of foundation.
 
-I analized the dependence of salary on company size, the company has a competitors or not, in the same state or not, State, Seniority and Job title.
+I analysed the dependence of salary on the size of the company, whether the company has competitors or not, whether it is in the same state or not.
 
-Finaly I looked for if a job require one or more of the most required techical skills.
+Finally, I checked if the job required one or more of the most needed technical skills.
 
 ## [Model Building](https://github.com/trauerj/DS_Salary_project/blob/main/ds_jobs_project_model_building_v1.ipynb)
-First, I transformed the categorical variables to dummy variables.
+First, I transformed the categorical variables into dummy variables.
 
-Second, I looked for the 21 most corralated features and made the models using just these features.
+Second, I looked for the 21 most correlated features and made the models using just these features.
 
 I also split the data into train and test sets with a test size 20% in both scenario.
 
@@ -67,7 +67,7 @@ I got the following MAE values when the models used every features:
 * Random Forest: MAE = 12006
 * Gradient Boosting: MAE = 11466
 
-I got the following MAE values when the models used the 21 most corralated features:
+I got the following MAE values when the models used the 21 most correlated features:
 
 * Linear Regression: MAE = 19644
 * Random Forest: MAE = 13636
